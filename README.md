@@ -1,3 +1,5 @@
+# a fork of midnight discord theme by [refact0r](https://github.com/refact0r/midnight-discord) for my own usage
+
 <img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
 
 # midnight
