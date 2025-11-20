@@ -20,12 +20,12 @@ body {
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
     /* sizes */
-    --gap: 10px; /* spacing between panels */
-    --divider-thickness: 1px; /* thickness of unread messages divider and highlighted message borders */
+    --gap: 12px; /* spacing between panels */
+    --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
     --border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
 
     /* animation/transition options */
-    --animations: off; /* off: disable animations/transitions, on: enable animations/transitions */
+    --animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
     --list-item-transition: 0.2s ease; /* transition for list items */
     --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
     --border-hover-transition: 0.2s ease; /* transition for borders when hovered */
@@ -38,7 +38,7 @@ body {
 
     /* window controls */
     --custom-window-controls: on; /* off: default window controls, on: custom window controls */
-    --window-control-size: 15px; /* size of custom window controls */
+    --window-control-size: 14px; /* size of custom window controls */
 
     /* dms button options */
     --custom-dms-icon: custom; /* off: use default discord icon, hide: remove icon entirely, custom: use custom icon */
@@ -64,9 +64,8 @@ body {
     --bg-floating: hsla(220, 15%, 13%, 0.9); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
     /* chatbar options */
-    --custom-chatbar: separated; /* off: default chatbar, aligned: chatbar aligned with the user panel, separated: chatbar separated from chat */
-    --chatbar-height: 56px; /* height of the chatbar (52px by default, 47px recommended for aligned, 56px recommended for separated) */
-    --chatbar-padding: 8px; /* padding of the chatbar. only applies in aligned mode. */
+    --custom-chatbar: separated; /* off: default chatbar, separated: chatbar separated from chat */
+    --chatbar-height: 56px; /* height of the chatbar (56px by default, 47px to align with user panel, 56px recommended for separated) */
 
     /* other options */
     --small-user-panel: off; /* off: default user panel, on: smaller user panel like in old discord */
